@@ -13,9 +13,9 @@ void loop() {
   Serial.println(pirValue);
 
   if (pirValue == HIGH) {
-    digitalWrite(light, HIGH);   // Motion detected → Light ON
+    digitalWrite(light, HIGH);   
   } else {
-    digitalWrite(light, LOW);    // No motion → Light OFF
+    digitalWrite(light, LOW);    
   }
 
   delay(200);
