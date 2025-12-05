@@ -7,7 +7,7 @@ void setup() {
   pinMode(sensor, INPUT);
   pinMode(relay, OUTPUT);
   
-  digitalWrite(relay, LOW); // pump off initially
+  digitalWrite(relay, LOW); 
 }
 
 void loop() {
